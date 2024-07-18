@@ -6,6 +6,7 @@
     <title>AI Love Poem Generator</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -20,6 +21,7 @@
           required,
           autofocus="True"
           class="prompt"
+          id="prompt"
         />
         <input type="submit" value="Generate poem" class="submit-btn" />
       </form>
